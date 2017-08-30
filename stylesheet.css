@@ -6,14 +6,13 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(background_2.jpg) no-repeat center center fixed;
+	background: url(background_2.jpg) no-repeat  center center fixed;
 	background-size: cover;
 	 -webkit-background-size: cover;
- 	 -moz-background-size: cover;
- 	 -o-background-size: cover;
-  	background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 
 .box {
 	width: 450px;
