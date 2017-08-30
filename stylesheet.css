@@ -12,7 +12,7 @@ body{
 
 .box {
 	width: 450px;
-	background: rgba(0,0,0,0.4);
+	background: rgba(9, 63, 124, .7);
 	padding: 40px;
 	text-align: center;
 	margin: auto;
@@ -37,7 +37,7 @@ body{
 	text-align: justify;
 }
 
-ul{
+ul {
 	margin:0;
 	padding: 0;
 
@@ -60,3 +60,4 @@ ul{
 
 	color: #b9b9b9;
 }
+
