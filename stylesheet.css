@@ -1,13 +1,9 @@
-#profile{
-	width: 250px;
-	height:250px;
-}
+
 
 body{
 	margin: 0;
-	padding: 0;
-	background: url(background_2.jpg) no-repeat  center center fixed;
-	background-size: cover;
+	padding: 300;
+	background: url(background_2.jpg) no-repeat;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,6 +19,12 @@ body{
 	margin-top: 5%;
 	color: white;
 	font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
 }
 
 .box h1{
