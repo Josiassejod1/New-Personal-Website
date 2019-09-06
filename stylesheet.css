@@ -5,11 +5,11 @@
     		height: 100%;
     		background: rgba(9, 63, 124, .7);
     		margin: 0;
-    		
+
     	}
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
     	.box {
     		width: 100%;
@@ -23,25 +23,42 @@
 hr {
 	background-color:white;
 }
-body{
-	margin: 0;
-	padding: 0;
-	background: url(background_1.jpg)  no-repeat center center fixed;
-	 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow: auto;
+#cover1{
+ background-color: rgba(9, 63, 124, .7);
 }
 
-.box {
-	width: 450px;
-	background: rgba(9, 63, 124, .7);
-	padding: 40px;
+.content{
+  position: inherit;
+bottom: 0;
+background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+}
+
+#podium-img {
+  background: no-repeat;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ overflow: auto;
+}
+
+.box1 {
 	text-align: center;
 	margin: auto;
 	color: white;
 	font-family: 'Century Gothic', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(images/background_1.png)  no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: auto;
 
 }
 
@@ -93,6 +110,3 @@ ul {
 
 	color: #b9b9b9;
 }
-
-
-
